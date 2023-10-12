@@ -52,14 +52,14 @@ input {
    box-shadow: #474646 5px 1.5px 16px;
 }
 
-.btn-add,
-a {
+.btn-add {
    height: 40px;
    width: 100px;
    border: black 1px solid;
    border-radius: 0.8rem;
    background-color: rgb(126, 131, 109);
    text-decoration: none;
+   color: black;
 }
 
 #muestra-pizz {
