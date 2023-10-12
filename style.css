@@ -52,7 +52,8 @@ input {
    box-shadow: #474646 5px 1.5px 16px;
 }
 
-.btn-add {
+.btn-add,
+a {
    height: 40px;
    width: 100px;
    border: black 1px solid;
