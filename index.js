@@ -59,7 +59,7 @@ const renderCard = (pizza) => {
       <h3>${pizza.nombre}</h3>
       <img class="img-tr" src="${pizza.imagen}" alt="${pizza.nombre}" />
        <p> ${pizza.ingredientes.join(", ")}</p>
-       <p>Precio: ${pizza.precio}</p>
+       <p class="btn-add">Precio: ${pizza.precio}</p>
        <button>
           <a href="#">Comprar</a>
       </button>
