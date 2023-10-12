@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="style.css" />
+      <title>Document</title>
+   </head>
+
+   <body>
+      <section id="muestra-pizz">
+         <div class="container-p">
+            <h3>Pizza de muzzarella</h3>
+            <img class="img-tr" src="img/4quesos.png" alt="pizza de muzza" />
+            <p>"Muzzarella", "Tomate", "Aceitunas"</p>
+            <p>$500</p>
+
+            <p class="num-pizz">1</p>
+         </div>
+         <div class="container-p">
+            <h3>Pizza de cebolla</h3>
+            <img class="img-tr" src="img/cebolla.png" alt="Pizza de cebolla" />
+            <p>"Muzzarella", "Tomate", "Cebolla"</p>
+            <p>$1500</p>
+
+            <p class="num-pizz">2</p>
+         </div>
+         <div class="container-p">
+            <h3>Pizza 4 Quesos</h3>
+            <img class="img-tr" src="img/4quesos.png" alt="${pizza.nombre}" />
+            <p>
+               "Muzzarella", "Tomate", "Queso Azul", "Parmesano", "Roquefort"
+            </p>
+            <p>$1380</p>
+
+            <p class="num-pizz">3</p>
+         </div>
+         <div class="container-p">
+            <h3>Pizza Especial</h3>
+            <img class="img-tr" src="img/especial.png" alt="Pizza especial" />
+            <p>"Muzzarella", "Tomate", "Rucula", "Jamón"</p>
+            <p>1000</p>
+
+            <p class="num-pizz">4</p>
+         </div>
+         <div class="container-p">
+            <h3>Pizza con Anana</h3>
+            <img class="img-tr" src="img/anana.png" alt="Pizza con anana" />
+            <p>"Muzzarella", "Tomate", "Anana"</p>
+            <p>600</p>
+
+            <p class="num-pizz">5</p>
+         </div>
+      </section>
+      <section id="container">
+         <label class="ing-num" for="input">Ingrese su pizza</label>
+         <input type="number" id="input" min="1" step="1" />
+         <button class="btn-add" id="btn-add">Obtener</button>
+         <small id="small"></small>
+         <div id="box"></div>
+      </section>
+   </body>
+   <script src="index.js"></script>
+</html>
