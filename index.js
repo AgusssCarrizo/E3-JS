@@ -59,8 +59,8 @@ const renderCard = (pizza) => {
       <h3>${pizza.nombre}</h3>
       <img class="img-tr" src="${pizza.imagen}" alt="${pizza.nombre}" />
        <p> ${pizza.ingredientes.join(", ")}</p>
-       <p class="btn-add">Precio: ${pizza.precio}</p>
-       <button>
+       <p>Precio: ${pizza.precio}</p>
+       <button class="btn-add">
           <a href="#">Comprar</a>
       </button>
      
